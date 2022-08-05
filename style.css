@@ -1,0 +1,348 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+    background-color: #009b4e;
+    width: 100%;
+    height: 90px;
+    
+
+}
+
+
+.header-img{
+    width: 73px;
+    height: 51px;
+    /* margin-left:45px ;
+    margin-top: 19px; */
+    margin-top: 18px;
+    margin-left: 63px;
+   
+}
+.parent{
+    /* height: 150px; */
+    /* width: 150px ; */
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-top: -65px;
+    
+    margin-left: 13rem;
+    
+    
+}
+    
+
+
+.parent a{
+    
+
+    
+    /* display: inline-block; */
+    /* width: 50px; */
+    margin-left: -16rem;
+    margin-top: 40px;
+
+}
+.parent a:hover{
+    color: black;
+    text-decoration: underline;
+
+}
+/* .child2{
+
+
+} */
+/* .navigation{
+    display: flex;
+    justify-content: space-between;
+} */
+.header a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: #fff;
+}
+.logos{
+    
+    width: 50%;
+    margin-left: 150px;
+    
+    margin-top: 2px;
+    height: 100px;
+}
+.logoimagenav{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    margin-left: 875px;
+    margin-top: -20px;
+    
+}
+.logoimagenav :hover{
+    background-color: black;
+}
+.logoimagenav img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.nav-logo{
+    height: 60px;
+    width: 50px;
+    
+}
+
+.section1{
+height: 100vh;
+width: 100;
+    background-image: url('image/new-sprite-hero.png');
+    background-size: 100%;   
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-top: 80PX;
+    
+
+
+}
+
+.headd{
+    /* position: absolute; */
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 75px;
+    font-style: italic;
+    font-size:50px;
+    margin-top: 110px;
+    font-weight: 900;
+    
+    
+}
+.parag1{
+    /* position: absolute; */
+        /* position: absolute; */
+        color: azure;
+        margin-left: 70px;
+        width: 350;
+        font-style: initial;
+        font-family: Montserrat, sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        border: none;
+    }
+
+
+.button1{
+    margin-top: 20px;
+    margin-left: 70px;
+   background-color: #009b4e;
+   color: azure;
+   font-size: 17px;
+   padding-left: 60px;
+   padding-right: 60px;
+   padding-bottom: 10px;
+   padding-top: 10px;
+   font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    border: none;
+}
+.button1:hover{
+    
+    background: black;
+}
+.headd2{
+    margin-left: 350px;
+    font-style: italic;
+    margin-top: 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: Montserrat, sans-serif;
+    font-weight: 900;
+    
+
+}
+.parag2{
+    width: 600px;
+    margin-left: 350px;
+    font-size: small;
+    font-style: normal;
+    font-family: Montserrat, sans-serif;
+    color: black;
+    font-weight: 500;
+    margin-top: 10px;
+}
+ 
+
+
+ 
+.video1{
+    margin-left: 350px;
+    margin-top: 40px;
+}
+.section-3{
+    display: flex;
+   
+
+}
+.section3left{
+    /* position: relative;      */
+  background-image:url("image/heat-happens\ \(1\).png");
+   height: 450px;
+    margin-left: 10px;
+    margin-top: 60px;
+    width: 880px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+   
+
+
+
+}
+.image4{
+    position: absolute;
+    margin-left: 255px;
+    font-size: larger;
+    height: 150px;
+    width: 350px;
+    margin-top: 50px;
+}
+.button2{
+    margin-left: 260px;
+    background-color: black ;
+    color: azure;
+    font-style: initial;
+    margin-top: 270px;
+    font-size: medium;
+    
+    padding-left:35px;
+    padding-right:35px;
+    padding-bottom:6px;
+    padding-top:6px;
+    border: 3px solid seashell;
+}
+.button2:hover{
+    opacity: 0.5;
+}
+.image5{
+    margin-left:255px;
+    width: 360px;
+    margin-top: 10px;
+}
+.section3right{
+    /* padding-left:500px;
+    padding-right:200px;
+    padding-top: 30px;
+    padding-bottom: 30px; */
+background-image: url("image/all-clear-from-here.png");
+width: 1500px;
+height: 500px;
+margin-top: 10px;
+margin-left: 3px;
+
+background-size: 100% 100%;
+}
+.footerr{
+   background-color: #009b4e;
+    width: 1260px;
+    height: 500px;
+    margin: 0;
+    margin-top:40px;
+}
+.footerimage1{
+    width: 125px;
+    height: 85px;
+    margin-top: 98px;
+    margin-left: 195px;
+}
+.footertext1{
+    width:- 50px;
+    height: -50px;
+    margin-left:380px;
+    margin-top:-100px;
+    color: #fff;
+    font-size: medium;
+    font-style: italic;
+    font-family: Montserrat, sans-serif;
+}
+.logoimage2{
+    display: flex;
+    /* justify-content: space-evenly; */
+    width:100px;
+    margin-top: 30px;
+    margin-left: 425px;
+
+}
+.logo2{
+    padding: 8px;
+
+}
+.maintext
+{
+    color: #fff;
+    margin-left: 850px;
+    margin-top: -95px;
+    font-style: italic;
+    font-size: medium;
+    font-family: Montserrat, sans-serif;
+}
+.footerparag{
+    color:white ;
+    
+    margin-left: 880px;
+    margin-top: 45px;
+    font-style: italic;
+    font-size: large;
+    
+    
+}
+/* .footerparag:hover{
+    background-color: black;
+} */
+.spritetext{
+    padding-top: 5px;
+    font-family: Montserrat, sans-serif;
+
+}
+
+.spritetext span:hover {
+    background-color: black;
+    width:auto;
+    
+
+}
+
+.footerend1{
+    margin-left: 450px;
+    margin-top: 130px;
+    color: #fff;
+    font-size: medium;
+    font-family: Montserrat, sans-serif;
+    font-style: italic;
+    
+
+
+}
+.footerparag2{
+    font-family: Montserrat, sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 260px;
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+}
+.signinlogo{
+    width: 40px;
+    height: 20px;
+}
